@@ -1,0 +1,74 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/*----- Navigation Bar ----------------------------------------------------------------*/
+.navbar{
+background-color: #F0BABA;
+line-height: 1.5;
+}
+.nav-link{
+color: #A30D5F;
+font-weight: 500;
+}
+.navbar-toggler{
+outline: none!important;
+color: #A30D5F;
+}
+.navbar-toggler:hover{
+color: #ffffff;
+}
+.nav-item :hover{
+color: #ffffff;
+}
+.nav-link.active{
+color: #ffffff;
+}
+/*----- End of Navigation Bar ----------------------------------------------------------------*/
+
+/*----- Register ----------------------------------------------------------------*/
+h1.well{
+    color: #fff;
+    background-color: #A30D5F;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 10px;
+    padding:12px;
+    margin-bottom: 40px;
+}
+.btn.btn-lg.btn-info{
+    background-color: #A30D5F;
+    color: #fff;
+    border: none;
+    margin-bottom: 40px;
+    padding: 2px;
+    padding-left: 80px;
+    border-radius: 10px;
+    padding-right: 80px;
+}
+.btn.btn-lg.btn-info:hover{
+    background-color: #d3378d;
+    color: #fff;
+}
+.form-group.topic{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 28px;
+}
+
+/*----- End of Register ----------------------------------------------------------------*/
+
+.dropdown-menu >a{
+    color: #A30D5F;
+    font-weight: 600;
+  }
+  .dropdown-menu >a:hover{
+    color: #ffffff;
+    background-color: #c23582;
+  }
+
+
+
+  
+ 

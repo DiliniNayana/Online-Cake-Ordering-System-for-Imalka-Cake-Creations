@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  /*----- Navigation Bar ----------------------------------------------------------------*/
+  .navbar{
+  background-color: #F0BABA;
+  line-height: 1.5;
+  }
+  .nav-link{
+  color: #A30D5F;
+  font-weight: 500;
+  }
+  .navbar-toggler{
+  outline: none!important;
+  color: #A30D5F;
+  }
+  .navbar-toggler:hover{
+  color: #ffffff;
+  }
+  .nav-item :hover{
+  color: #ffffff;
+  }
+  .nav-link.active{
+  color: #ffffff;
+  }
+  /*----- End of Navigation Bar ----------------------------------------------------------------*/
+  
+  
+  /*======== Single Product================================*/
+  .topic{
+    font-size: 28px;
+  }
+  .mr-1{
+    font-size: 24px;
+  }
+  .pt-1{
+    font-size: 16px;
+    color: #242424;
+  }
+  .pb-0{
+    color: #A30D5F;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .btn.btn-light.btn-md.mr-1.mb-2{
+    background-color: #A30D5F;
+    color: #ffffff;
+  }
+  .btn.btn-light.btn-md.mr-1.mb-2:hover{
+    background-color: #d3378d;
+    color: #ffffff;
+  }
+  .btn.btn-primary.btn-md.mr-1.mb-2{
+    border: none;
+    background-color: #a30d0d;
+    color: #ffffff;
+  }
+  .btn.btn-primary.btn-md.mr-1.mb-2:hover{
+    background-color: #c73030;
+    color: #ffffff;
+  }
+
+  .wftopic{
+    color: #242424;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  /*========End of Single Product================================*/
+  
+  .dropdown-menu >a{
+    color: #A30D5F;
+    font-weight: 600;
+  }
+  .dropdown-menu >a:hover{
+    color: #ffffff;
+    background-color: #c23582;
+  }

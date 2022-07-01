@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+/*----- Upload Item ----------------------------------------------------------------------*/ 
+.btn.btn-primary1{
+    background-color: #e78b8b;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    margin-top: 20px;
+}
+.btn.btn-primary1:hover{
+    background-color: #c45555;
+    color: #fff;
+}
+.imagelogo{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.subtopic{
+    color: #494949;
+    font-size: 14px;
+}
+.col-md-4.control-label{
+    color: #c45555;
+    font-size: 12px;
+}
+
+input, textarea{
+    width: 100%;
+    /* border-color: #c45555; */
+    color: #c45555;
+    font-size: 16px;
+    
+}
+.pricet{
+    margin-left: 20px;
+    display: block;
+    width: 20%;
+}
+
+/*----- End of Upload Item ----------------------------------------------------------------------*/
+

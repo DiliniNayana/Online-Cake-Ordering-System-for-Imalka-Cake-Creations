@@ -1,0 +1,80 @@
+.fab-container {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 999;
+    cursor: pointer;
+  }
+  
+  .fab-icon-holder {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* background: #016fb9; */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fab-icon-holder:hover {
+    opacity: 0.8;
+  }
+  
+  .fab-icon-holder i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  
+  .fab1 {
+    width: 60px;
+    height: 60px;
+    background: #eb5f76;
+  }
+  
+  .fab-options {
+    list-style-type: none;
+    margin: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: scale(0);
+    transform-origin: 85% bottom;
+  }
+  
+  .fab1:hover+.fab-options,
+  .fab-options:hover {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .fab-options li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+  }
+  .fab-options li a{
+      text-decoration: none;
+  }
+  .fab-options li a:hover{
+    text-decoration: none;
+}
+  
+  .fab-label {
+    padding: 2px 5px;
+    align-self: center;
+    user-select: none;
+    white-space: nowrap;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #fdb3b3;
+    color: #1d1d1d;
+    /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); */
+    margin-right: 10px;
+  }

@@ -1,0 +1,67 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*----- Navigation Bar ----------------------------------------------------------------*/
+.navbar{
+  background-color: #F0BABA;
+  line-height: 1.5;
+}
+.nav-link{
+  color: #A30D5F;
+  font-weight: 500;
+}
+.navbar-toggler{
+  outline: none!important;
+  color: #A30D5F;
+}
+.navbar-toggler:hover{
+  color: #ffffff;
+}
+.nav-item :hover{
+  color: #ffffff;
+}
+.nav-link.active{
+  color: #ffffff;
+}
+/*----- End of Navigation Bar ----------------------------------------------------------------*/
+
+/*-----------regis-----------------------------------------------------------------------*/
+.regisnbtn1 {
+    background: #ca8a8a;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 28px;
+    width: 250px;
+    margin-top: 40px;
+  }
+  
+  .regisnbtn1:hover {
+    background: #924545;
+    color: #fff;
+  
+  }
+  
+  .new_reg_popup, .new_login_popup {
+    border-radius: 2px;
+    min-height: 332px;
+    padding: 40px;
+    width: 800px;
+    margin-left: 80px;
+  }
+  
+  .topic{
+    color: #d36262;
+  }
+
+  .dropdown-menu >a{
+    color: #A30D5F;
+    font-weight: 600;
+  }
+  .dropdown-menu >a:hover{
+    color: #ffffff;
+    background-color: #c23582;
+  }

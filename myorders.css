@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*----- Navigation Bar ----------------------------------------------------------------*/
+.navbar{
+  background-color: #F0BABA;
+  line-height: 1.5;
+}
+.nav-link{
+  color: #A30D5F;
+  font-weight: 500;
+}
+.navbar-toggler{
+  outline: none!important;
+  color: #A30D5F;
+}
+.navbar-toggler:hover{
+  color: #ffffff;
+}
+.nav-item :hover{
+  color: #ffffff;
+}
+.nav-link.active{
+  color: #ffffff;
+}
+/*----- End of Navigation Bar ----------------------------------------------------------------*/
+
+.topic{
+    font-size: 28px;
+    color: #A30D5F;
+  }
+
+
+  .dropdown-menu >a{
+    color: #A30D5F;
+    font-weight: 600;
+  }
+  .dropdown-menu >a:hover{
+    color: #ffffff;
+    background-color: #c23582;
+  }

@@ -1,0 +1,72 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/*----- Navigation Bar ----------------------------------------------------------------*/
+.navbar{
+background-color: #F0BABA;
+line-height: 1.5;
+}
+.nav-link{
+color: #A30D5F;
+font-weight: 500;
+}
+.navbar-toggler{
+outline: none!important;
+color: #A30D5F;
+}
+.navbar-toggler:hover{
+color: #ffffff;
+}
+.nav-item :hover{
+color: #ffffff;
+}
+.nav-link.active{
+color: #ffffff;
+}
+/*----- End of Navigation Bar ----------------------------------------------------------------*/
+
+ /*----- login ----------------------------------------------------------------*/
+.login__body {
+  min-height: 100vh;
+}
+
+.login__imagek {
+  width: 480.85px;
+  height: 481px;
+  
+}
+
+.login__container,
+.login__row {
+  min-height: 100vh;
+}
+
+.login__card {
+  background-color: #f6f6f6;
+}
+
+.text-muted.text-center{
+    margin: 0;
+}
+
+.btn.btn-primary.btn-lg.btn-block.my-3{
+    background-color: #A30D5F;
+    border: none;
+    color: #fff;
+}
+
+.btn.btn-primary.btn-lg.btn-block.my-3:hover{
+    background-color: #d3378d;
+    border: none;
+    color: #fff;
+}
+/*----- End of login ----------------------------------------------------------------*/
+
+.dropdown-menu >a{
+  color: #A30D5F;
+  font-weight: 600;
+}
+.dropdown-menu >a:hover{
+  color: #ffffff;
+  background-color: #c23582;
+}
